@@ -1,40 +1,34 @@
-AWS – Vecka 42 – Novatrix
-Namn: Selma Kaidi
-Kurs: Amazon Web Services (AWS)
-Projekt: Novatrix-Web
-Jag har skapat en EC2-instans i AWS med Amazon Linux 2023. Instansen heter Novatrix-Web och är placerad i regionen Europe (Stockholm).
+# AWS – Vecka 42 | Novatrix-Web
 
-Jag valde en instanstyp med hänsyn till kostnaden.
+**Namn:** Selma Kaidi
+**Kurs:** Amazon Web Services (AWS)
+**Projekt:** Novatrix-Web
 
-2. Installera en webbserver
-Jag anslöt till min EC2-instans via EC2 Instance Connect och installerade webbservern Nginx.
+## 1. EC2-instans
+Jag skapade en EC2-instans med Amazon Linux 2023 i regionen Europe (Stockholm).
 
-Jag använde följande kommandon:
+**Instansnamn:** Novatrix-Web
 
+## 2. Installation av Nginx
+Jag anslöt via EC2 Instance Connect och installerade Nginx.
+
+```bash
 sudo dnf install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
 sudo systemctl status nginx
-Jag kontrollerade att Nginx fungerade.
+```
 
-3. Driftsätta en webbsida
-Jag skapade en enkel HTML-webbsida för Novatrix.
+## 3. Webbsida
+Jag skapade en enkel HTML-webbsida med rubriken Välkommen till Novatrix!
 
-Webbsidan innehåller rubriken “Välkommen till Novatrix!” och texten “Min första webbserver på AWS EC2.”
+**Publik IP vid test:** http://16.171.10.3
 
-Webbsidan är tillgänglig via instansens publika IP-adress:
-
-http://16.171.10.3
-
-4. Verifiering
+## 4. Verifiering
 Jag öppnade webbsidan i webbläsaren och kontrollerade att den fungerade.
 
-Jag har tagit skärmbilder som visar webbservern och den publicerade webbsidan.
+## 5. Dokumentation
+Skärmbilder och ytterligare dokumentation läggs till i denna mapp.
 
-5. Dokumentation
-Jag har skapat ett publikt GitHub-repository och dokumenterar arbetet i mappen v42.
-
-Dokumentationen innehåller beskrivningar av installationen, konfigurationen och verifieringen.
-
-6. Kostnadskontroll
-Jag ska kontrollera att en månadsbudget med e-postlarm är konfigurerad i AWS Budgets och lägga till en skärmbild som bevis.
+## 6. Kostnadskontroll
+AWS Budgets och e-postlarm behöver kontrolleras och dokumenteras.
