@@ -2,7 +2,6 @@ AWS – Vecka 42 – Novatrix
 Namn: Selma Kaidi
 Kurs: Amazon Web Services (AWS)
 Projekt: Novatrix-Web
-
 Jag har skapat en EC2-instans i AWS med Amazon Linux 2023. Instansen heter Novatrix-Web och är placerad i regionen Europe (Stockholm).
 
 Jag valde en instanstyp med hänsyn till kostnaden.
