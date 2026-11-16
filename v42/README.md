@@ -31,4 +31,18 @@ Jag öppnade webbsidan i webbläsaren och kontrollerade att den fungerade.
 Skärmbilder och ytterligare dokumentation läggs till i denna mapp.
 
 ## 6. Kostnadskontroll
-AWS Budgets och e-postlarm behöver kontrolleras och dokumenteras.
+6. Kostnadskontroll – AWS Budgets
+Jag har skapat en månadsbudget på 5 USD i AWS Budgets för att övervaka kostnaderna för mitt Novatrix-projekt.
+
+Jag har konfigurerat tre kostnadslarm:
+
+Actual cost > 85 %
+Actual cost > 100 %
+Forecasted cost > 100 %
+Min e-postadress är verifierad för att kunna ta emot budgetlarm.
+
+Jag har kontrollerat att budgeten är aktiv och har status Healthy.
+
+Resultat: Kostnadskontrollen är konfigurerad och verifierad.
+
+
