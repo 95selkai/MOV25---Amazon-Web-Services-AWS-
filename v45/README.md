@@ -56,6 +56,4 @@ EC2 -->|HTTPS IAM| S3[S3 backup]
 
 ## Dokumentation
 
-[PDF med skärmbilder](AWS_V45_Novatrix.pdf)
-
-Publicera inte lösenord, databasdump eller känsliga skärmbilder i ett publikt repo.
+[PDF med skärmbilder]
